@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>IAgro - O Futuro na Terra</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        🌱 IAgro
+    </div>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="simulador.html">Simulador</a>
+        <a href="guia.html">Guia IA</a>
+        <a href="chatbot.html">Agrinho IA</a>
+    </nav>
+
+    <button id="temaBtn">
+        🌙
+    </button>
+
+</header>
+
+<section class="drone-area">
+    <div class="drone">🚁</div>
+</section>
+
+<section class="hero">
+
+    <h1>O Futuro da Agricultura Já Começou</h1>
+
+    <p>
+        Inteligência Artificial, drones e sensores
+        trabalhando juntos para produzir mais,
+        economizar recursos e preservar o meio ambiente.
+    </p>
+
+    <a href="simulador.html" class="btn">
+        Experimentar Tecnologia
+    </a>
+
+</section>
+
+<section class="cards">
+
+    <div class="card">
+        <h3>🚁 Drones</h3>
+        <p>
+            Monitoramento inteligente das plantações.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🌦 Clima</h3>
+        <p>
+            Simulação dos impactos climáticos.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🤖 IA Agrinho</h3>
+        <p>
+            Assistente virtual para tirar dúvidas.
+        </p>
+    </div>
+
+</section>
+
+<section class="economia">
+
+    <h2>💧 Economia Inteligente de Água</h2>
+
+    <p>
+        Sensores de umidade podem reduzir até 30% do consumo de água.
+    </p>
+
+    <input
+        type="number"
+        id="aguaAtual"
+        placeholder="Consumo mensal (litros)"
+    >
+
+    <button onclick="calcularEconomia()">
+        Calcular Economia
+    </button>
+
+    <div id="economiaResultado"></div>
+
+</section>
+
+<footer>
+
+    <h3>Projeto Agrinho 2026</h3>
+
+    <p>
+        Tecnologia e Sustentabilidade no Campo
+    </p>
+
+</footer>
+
+<script src="js/economia.js"></script>
+<script src="js/tema.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Simulador Climático</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">🌱 IAgro</div>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="guia.html">Guia IA</a>
+        <a href="chatbot.html">Agrinho IA</a>
+    </nav>
+
+</header>
+
+<section class="container">
+
+<h1>🌦 Simulador Climático Inteligente</h1>
+
+<select id="cultura">
+
+<option value="soja">Soja</option>
+<option value="milho">Milho</option>
+<option value="cafe">Café</option>
+
+</select>
+
+<input
+type="number"
+id="temperatura"
+placeholder="Temperatura Atual"
+/>
+
+<input
+type="number"
+id="chuva"
+placeholder="Quantidade de Chuva (mm)"
+/>
+
+<button onclick="simular()">
+Analisar
+</button>
+
+<div id="resultado"></div>
+
+</section>
+
+<script src="js/simulador.js"></script>
+
+</body>
+</html>
