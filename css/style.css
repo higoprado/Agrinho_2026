@@ -1,0 +1,190 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#0f172a,#0c4a6e,#15803d);
+color:white;
+min-height:100vh;
+transition:.4s;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:rgba(0,0,0,.25);
+backdrop-filter:blur(10px);
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 10px;
+font-weight:600;
+}
+
+#temaBtn{
+padding:10px 15px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+.drone-area{
+height:120px;
+position:relative;
+overflow:hidden;
+}
+
+.drone{
+position:absolute;
+font-size:60px;
+animation:voar 12s linear infinite;
+}
+
+@keyframes voar{
+
+0%{
+left:-100px;
+top:60px;
+}
+
+50%{
+top:15px;
+}
+
+100%{
+left:110%;
+top:60px;
+}
+
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+}
+
+.hero h1{
+font-size:3rem;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+line-height:1.8;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 30px;
+background:#22c55e;
+border-radius:12px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+padding:50px;
+}
+
+.card{
+width:280px;
+padding:25px;
+background:rgba(255,255,255,.1);
+border-radius:15px;
+backdrop-filter:blur(10px);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.economia{
+text-align:center;
+padding:50px;
+}
+
+.economia input,
+.container input,
+.container select,
+.chat input{
+width:100%;
+max-width:450px;
+padding:14px;
+border:none;
+border-radius:10px;
+margin:15px auto;
+display:block;
+}
+
+button{
+padding:14px 25px;
+background:#22c55e;
+border:none;
+border-radius:10px;
+color:white;
+cursor:pointer;
+}
+
+.container{
+text-align:center;
+padding:50px;
+}
+
+#resultado{
+margin-top:25px;
+font-size:22px;
+}
+
+.chat{
+max-width:800px;
+margin:auto;
+padding:40px;
+}
+
+#chatbox{
+height:350px;
+overflow:auto;
+background:rgba(255,255,255,.1);
+padding:20px;
+border-radius:15px;
+margin-bottom:20px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+}
+
+.light-mode{
+background:linear-gradient(135deg,#e0f2fe,#ffffff,#dcfce7);
+color:#222;
+}
+
+.light-mode nav a{
+color:#222;
+}
+
+.light-mode .card{
+background:white;
+color:#222;
+}
