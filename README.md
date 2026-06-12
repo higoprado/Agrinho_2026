@@ -1,1 +1,4 @@
 # Agrinho_2026
+## 🌾 IAgro: O Futuro na Terra
+
+O **IAgro: O Futuro na Terra** é um projeto desenvolvido para o Programa Agrinho 2026 que demonstra como a Inteligência Artificial, drones e sensores podem transformar a agricultura. Por meio de ferramentas interativas, como simulador climático, guia de tecnologias agrícolas e assistente virtual, o site apresenta soluções inovadoras que ajudam produtores a aumentar a produtividade, economizar recursos naturais e promover uma agricultura mais sustentável. O projeto une tecnologia, educação e inovação para mostrar como o futuro do campo já está acontecendo.
